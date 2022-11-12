@@ -11,7 +11,7 @@ public class Main {
                 total +=i;
 
             }
-        }while(i>0);
+        }while(i%2==0);
         System.out.println("Sayıların toplamı: "+total);
 
     }
